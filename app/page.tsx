@@ -13,7 +13,7 @@ export default function LandingPage() {
           <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center shadow-lg shadow-blue-500/20">
             <span className="text-white font-bold text-lg">A</span>
           </div>
-          <span className="text-xl font-bold tracking-tight text-slate-900 dark:text-white">ApplyFlow</span>
+          <span className="text-xl font-bold tracking-tight text-slate-900 dark:text-white">ApplyFlowPH</span>
         </div>
         <div className="flex items-center gap-4">
           <ThemeToggle />
@@ -44,7 +44,7 @@ export default function LandingPage() {
           </h1>
           
           <p className="text-lg md:text-xl text-slate-600 dark:text-slate-400 max-w-2xl mx-auto leading-relaxed">
-            Stop losing track of your applications in messy spreadsheets. ApplyFlow is a premium tracking platform that organizes your job hunt, gives you actionable insights, and keeps you motivated.
+            Stop losing track of your applications in messy spreadsheets. ApplyFlowPH is a premium tracking platform that organizes your job hunt, gives you actionable insights, and keeps you motivated.
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
@@ -83,7 +83,7 @@ export default function LandingPage() {
       </main>
 
       <footer className="py-8 text-center text-slate-500 dark:text-slate-400 text-sm border-t border-slate-200/50 dark:border-slate-800/50 relative z-10">
-        &copy; {new Date().getFullYear()} ApplyFlow. Track better, hire faster.
+        &copy; {new Date().getFullYear()} ApplyFlowPH. Track better, hire faster.
       </footer>
     </div>
   )

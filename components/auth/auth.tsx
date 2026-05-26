@@ -60,7 +60,7 @@ export function Auth() {
           <div className="w-12 h-12 bg-blue-600 rounded-xl flex items-center justify-center mx-auto shadow-lg shadow-blue-500/30 mb-2">
             <span className="text-white font-bold text-2xl">A</span>
           </div>
-          <CardTitle className="text-3xl font-extrabold tracking-tight text-slate-900 dark:text-white">ApplyFlow</CardTitle>
+          <CardTitle className="text-3xl font-extrabold tracking-tight text-slate-900 dark:text-white">ApplyFlowPH</CardTitle>
           <CardDescription className="text-slate-500 dark:text-slate-400">
             {isLogin ? "Welcome back! Sign in to your account." : "Create an account to track your applications."}
           </CardDescription>

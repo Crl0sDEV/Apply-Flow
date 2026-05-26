@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ApplyFlow",
+  title: "ApplyFlowPH",
   description: "Job Application Tracker",
 };
 

@@ -35,7 +35,7 @@ export function DashboardLayout({ children, userEmail }: DashboardLayoutProps) {
             <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-lg">A</span>
             </div>
-            <h1 className="text-xl font-bold tracking-tight text-slate-900 dark:text-white">ApplyFlow</h1>
+            <h1 className="text-xl font-bold tracking-tight text-slate-900 dark:text-white">ApplyFlowPH</h1>
           </div>
         </div>
         <div className="flex-1 overflow-y-auto py-6 px-3 space-y-1">
@@ -74,7 +74,7 @@ export function DashboardLayout({ children, userEmail }: DashboardLayoutProps) {
             <div className="w-6 h-6 bg-blue-600 rounded flex items-center justify-center">
               <span className="text-white font-bold text-xs">A</span>
             </div>
-            <h1 className="text-lg font-bold">ApplyFlow</h1>
+            <h1 className="text-lg font-bold">ApplyFlowPH</h1>
           </div>
           <ThemeToggle />
         </header>

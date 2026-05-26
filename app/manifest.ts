@@ -2,8 +2,8 @@ import { MetadataRoute } from 'next'
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'ApplyFlow',
-    short_name: 'ApplyFlow',
+    name: 'ApplyFlowPH',
+    short_name: 'ApplyFlowPH',
     description: 'Track your job applications offline and online.',
     start_url: '/',
     display: 'standalone',
