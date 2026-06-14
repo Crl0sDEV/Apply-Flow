@@ -8,18 +8,18 @@ export default function LandingPage() {
   return (
     <div className="min-h-screen flex flex-col bg-slate-50 dark:bg-slate-950 transition-colors duration-300">
       {/* Navigation */}
-      <header className="px-6 md:px-12 py-4 flex items-center justify-between sticky top-0 bg-slate-50/80 dark:bg-slate-950/80 backdrop-blur-md z-50 border-b border-slate-200/50 dark:border-slate-800/50">
-        <div className="flex items-center gap-2">
-          <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center shadow-lg shadow-blue-500/20">
+      <header className="px-4 md:px-12 py-4 flex items-center justify-between sticky top-0 bg-slate-50/80 dark:bg-slate-950/80 backdrop-blur-md z-50 border-b border-slate-200/50 dark:border-slate-800/50">
+        <div className="flex items-center gap-2 shrink-0">
+          <div className="w-8 h-8 shrink-0 bg-blue-600 rounded-lg flex items-center justify-center shadow-lg shadow-blue-500/20">
             <span className="text-white font-bold text-lg">A</span>
           </div>
-          <span className="text-xl font-bold tracking-tight text-slate-900 dark:text-white">ApplyFlowPH</span>
+          <span className="hidden sm:block text-xl font-bold tracking-tight text-slate-900 dark:text-white">ApplyFlowPH</span>
         </div>
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-2 sm:gap-4 shrink-0">
           <ThemeToggle />
           <Link href="/dashboard">
-            <Button className="rounded-full px-6 font-medium shadow-md hover:shadow-lg transition-all bg-blue-600 hover:bg-blue-700 text-white">
-              Go to Dashboard
+            <Button className="rounded-full px-4 sm:px-6 font-medium shadow-md hover:shadow-lg transition-all bg-blue-600 hover:bg-blue-700 text-white text-sm sm:text-base">
+              <span className="hidden sm:inline">Go to </span>Dashboard
             </Button>
           </Link>
         </div>
