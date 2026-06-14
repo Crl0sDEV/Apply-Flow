@@ -3,7 +3,16 @@ import withPWAInit from "@ducanh2912/next-pwa";
 
 const withPWA = withPWAInit({
   dest: "public",
-  disable: process.env.NODE_ENV === "development", // Disable in dev to avoid caching issues
+  disable: process.env.NODE_ENV === "development",
+  cacheOnFrontEndNav: true,
+  aggressiveFrontEndNavCaching: true,
+  reloadOnOnline: true,
+  fallbacks: {
+    document: "/~offline",
+  },
+  workboxOptions: {
+    disableDevLogs: true,
+  },
 });
 
 const nextConfig: NextConfig = {
