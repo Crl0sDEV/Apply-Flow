@@ -16,7 +16,7 @@ const withPWA = withPWAInit({
 });
 
 const nextConfig: NextConfig = {
-  turbopack: {},
+  // turbopack: {}, // Removed so next-pwa Webpack plugins can run in dev
 };
 
 export default withPWA(nextConfig);
